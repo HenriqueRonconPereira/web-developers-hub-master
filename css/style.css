@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #28282B;
+    color: white;
+}
+.menu ul{
+    color: white;
+    text-align: center;
+    padding: 2em;
+    text-decoration: none;
+  
+}
+
+
+
+.menu li{
+    display: inline;
+    padding: 0 1em 0 0;
+    text-decoration: none
+
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.email{
+    color: aqua;
+    cursor: pointer;
+}
+
+.nome_clica{
+    margin: 0;
+    color: aqua;
+    cursor: pointer;
+}
+
+.pontinho{
+    list-style: circle;
+}
+
+.hover_menu:hover{
+    color: aqua;
+    transition: 0.4s;
+}
+.subtitulos{
+    color: aqua;
+}
+
+a:hover{
+    color: aqua;
+    transition: 0.4s;
+}
+
+li{
+    list-style: none;
+}
+
+header, section, footer{
+    padding: 0 2em;
+}
+#imagem-perfil{
+    width: 10%;
+    height: 17.5vh;
+    max-width: 600px;
+    border-radius: 50%;
+}
+
+.alinhar{
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    margin: 1em 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
